@@ -15,7 +15,7 @@ export default function Register() {
         password: yup.string().required().min(5),
     })
     return (
-        <Row className="m-0 justify-content-center p-3">
+        <Row className="m-0 justify-content-center p-3  h-100 align-items-center">
             <Formik
                 initialValues={{
                     name: "",

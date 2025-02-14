@@ -14,7 +14,7 @@ export default function Login() {
         password: yup.string().required('Password is required').min(5,'Password must be greater than 5 latters'),
     })
     return (
-        <Row className="m-0 justify-content-center p-3">
+        <Row className="m-0 justify-content-center p-3 h-100 align-items-center">
             <Formik
                 initialValues={{
                     name: "",
